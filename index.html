@@ -10,7 +10,7 @@
 <body>
   <header class="topbar">
     <div class="container nav">
-      <div class="logo">Novah Clinic</div>
+      <a class="logo" href="#">Novah Clinic</a>
       <nav>
         <a href="#services">Services</a>
         <a href="#specials">Specials</a>
@@ -22,84 +22,102 @@
   </header>
 
   <section class="hero">
-    <div class="container hero-grid">
-      <div>
-        <p class="eyebrow">Little Rock Wellness Retreat</p>
-        <h1>Massage, Skin Therapy, and Spa Care That Helps You Feel Better.</h1>
-        <p class="lead">Since 1991, Novah Clinic has provided a private, relaxing setting focused on stress relief, pain support, and full-body wellness.</p>
-        <div class="hero-actions" id="booking">
-          <a class="btn" href="https://www.novahclinic.com" target="_blank" rel="noopener noreferrer">Book Services Online</a>
-          <a class="btn btn-secondary" href="https://www.novahclinic.com" target="_blank" rel="noopener noreferrer">Buy Gift Certificates</a>
-        </div>
-      </div>
-      <div class="card soft">
-        <h2>May Special</h2>
-        <p><strong>$165</strong> (reg. $225)</p>
-        <ul>
-          <li>60 min Therapeutic Massage</li>
-          <li>Novah Signature Facial</li>
-          <li>Free collagen mask + free dermaplaning</li>
-        </ul>
-        <p class="small">Valid through May 30, 2026.</p>
+    <div class="hero-overlay"></div>
+    <div class="container hero-content">
+      <p class="eyebrow">Novah Clinic • Massage & Wellness</p>
+      <h1>Restore Your Body. Calm Your Mind. Reconnect With Yourself.</h1>
+      <p class="lead">A boutique day spa experience in Little Rock with massage therapy, skin care, and therapeutic treatments tailored to stress relief, muscle recovery, and full-body wellness.</p>
+      <div class="hero-actions" id="booking">
+        <a class="btn" href="https://www.novahclinic.com" target="_blank" rel="noopener noreferrer">Book Services</a>
+        <a class="btn btn-secondary" href="https://www.novahclinic.com" target="_blank" rel="noopener noreferrer">Gift Certificates</a>
       </div>
     </div>
   </section>
 
   <main>
+    <section class="feature-strip">
+      <div class="container tiles">
+        <article class="tile"><h3>Relaxation</h3><p>Unwind from daily stress in a soothing, private setting.</p></article>
+        <article class="tile"><h3>Pain Relief</h3><p>Targeted bodywork for tight muscles and chronic tension.</p></article>
+        <article class="tile"><h3>Skin Renewal</h3><p>Facials and add-ons that support healthy glowing skin.</p></article>
+      </div>
+    </section>
+
     <section id="services" class="section container">
-      <h2>Core Services</h2>
-      <p class="sub">A clean, modern menu designed around your current offerings.</p>
+      <h2>Signature Services</h2>
+      <p class="sub">Keep your current service menu, elevated with cleaner presentation and stronger booking flow.</p>
       <div class="grid-4">
-        <article class="card">
-          <h3>Massage</h3>
-          <p>Swedish, deep tissue, Lomi Lomi, and prenatal with no tiered pricing.</p>
+        <article class="card service-card">
+          <h3>Massage Therapy</h3>
+          <p>Swedish, deep tissue, prenatal, and Lomi Lomi massage options designed for relaxation and therapeutic recovery.</p>
           <p class="price">1 hr $85 • 1.5 hr $120 • 2 hr $165</p>
         </article>
-        <article class="card">
+        <article class="card service-card">
           <h3>Skin Therapy</h3>
-          <p>Signature and custom facials to refresh and rejuvenate skin naturally.</p>
-          <p class="price">Most facials from $75</p>
+          <p>Customized facials that hydrate, brighten, and support long-term skin wellness using professional spa care.</p>
+          <p class="price">Facials from $75</p>
         </article>
-        <article class="card">
+        <article class="card service-card">
           <h3>Spa Packages</h3>
-          <p>Pampering combinations for complete mind-body reset and recovery.</p>
+          <p>Blended massage + skincare sessions for clients who want a complete wellness reset.</p>
           <p class="price">Packages from $115</p>
         </article>
-        <article class="card">
+        <article class="card service-card">
           <h3>Infrared Sauna</h3>
-          <p>Detoxifying heat sessions to support circulation, recovery, and relaxation.</p>
+          <p>Gentle therapeutic heat sessions to support detox, circulation, and post-workout recovery.</p>
           <p class="price">$15 / 30 min session</p>
         </article>
       </div>
     </section>
 
     <section id="specials" class="section alt">
-      <div class="container">
-        <h2>News & Discounts</h2>
-        <div class="card">
-          <h3>Feature monthly promotions prominently.</h3>
-          <p>This redesign introduces a dedicated specials module so clients can quickly see current deals and time-limited offers.</p>
-          <a class="text-link" href="https://www.novahclinic.com" target="_blank" rel="noopener noreferrer">View latest specials on NovahClinic.com →</a>
+      <div class="container specials-layout">
+        <div>
+          <h2>Latest News & Monthly Specials</h2>
+          <p>Promotions are now visually highlighted so visitors immediately notice offers and seasonal value packages.</p>
+          <a class="text-link" href="https://www.novahclinic.com" target="_blank" rel="noopener noreferrer">See Current Specials →</a>
         </div>
+        <aside class="card promo">
+          <p class="promo-label">Featured May Offer</p>
+          <h3>Therapeutic Escape Package</h3>
+          <p class="promo-price">$165 <span>(Regular $225)</span></p>
+          <ul>
+            <li>60 minute Therapeutic Massage</li>
+            <li>Novah Signature Facial</li>
+            <li>Free collagen mask + free dermaplaning</li>
+          </ul>
+          <p class="small">Valid through May 30, 2026.</p>
+        </aside>
       </div>
     </section>
 
-    <section id="about" class="section container">
-      <h2>Natural Wellness Philosophy</h2>
-      <p>Novah Clinic is designed as a healing retreat for spiritual, emotional, and physical well-being. Your treatment plan can include massage, facials, sauna, and focused add-ons for pain relief and self-care.</p>
+    <section id="about" class="section container about-layout">
+      <div>
+        <h2>Wellness Rooted in Care Since 1991</h2>
+        <p>Novah Clinic was created as a sanctuary for emotional, spiritual, and physical healing. Every session is designed to support your goals, whether that’s reducing stress, improving mobility, or investing in consistent self-care.</p>
+      </div>
+      <div class="card soft">
+        <h3>What clients come for</h3>
+        <ul class="checklist">
+          <li>Muscle therapy and myofascial-focused relief</li>
+          <li>Relaxation and burnout recovery</li>
+          <li>Skin treatments and spa maintenance</li>
+          <li>Giftable experiences for loved ones</li>
+        </ul>
+      </div>
     </section>
 
-    <section id="contact" class="section alt">
-      <div class="container grid-2">
+    <section id="contact" class="section cta-band">
+      <div class="container cta-layout">
         <div>
           <h2>Visit Novah Clinic</h2>
           <p>14309 Cantrell Rd, Suite 4<br>Little Rock, AR 72223</p>
           <p>Phone: <a href="tel:+15012255601">501-225-5601</a></p>
         </div>
-        <div class="card soft">
-          <h3>Ready to schedule?</h3>
-          <p>Book online for massages, skin therapy, spa packages, and sauna sessions.</p>
-          <a class="btn" href="https://www.novahclinic.com" target="_blank" rel="noopener noreferrer">Start Booking</a>
+        <div>
+          <h3>Ready to book your next treatment?</h3>
+          <p>Reserve online in minutes and secure your ideal appointment time.</p>
+          <a class="btn" href="https://www.novahclinic.com" target="_blank" rel="noopener noreferrer">Book Appointment</a>
         </div>
       </div>
     </section>
@@ -108,7 +126,7 @@
   <footer>
     <div class="container footer">
       <p>© <span id="year"></span> Novah Clinic. All rights reserved.</p>
-      <p>Redesign concept: clean, soothing, and conversion-focused.</p>
+      <p>Designed for a modern, calming spa experience.</p>
     </div>
   </footer>
 
